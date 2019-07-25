@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "test:visual": "protractor ./protractor/local.conf.js"
+    "test:visual:pix-diff": "protractor ./protractor/local.conf.js",
+    "test:visual:percy": "percy exec -- protractor ./protractor/local.conf.js"
   },
   "author": "Yesid Lopez",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "@percy/protractor": "^1.0.4",
     "pix-diff": "^2.0.1",
     "protractor": "^5.4.2"
   }
