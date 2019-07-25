@@ -1,4 +1,3 @@
-const PixDiff = require('pix-diff');
 const { percySnapshot } = require('@percy/protractor')
 
 describe('Given a angularjs homepage', () => {
