@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:visual:pix-diff": "protractor ./protractor/local.conf.js",
     "test:visual:percy": "percy exec -- protractor ./protractor/local.conf.js"
   },
   "author": "Yesid Lopez",
@@ -12,7 +11,6 @@
   "dependencies": {},
   "devDependencies": {
     "@percy/protractor": "^1.0.4",
-    "pix-diff": "^2.0.1",
     "protractor": "^5.4.2"
   }
 }
